@@ -19,6 +19,15 @@
 #' behaviour may be observed.
 #'
 #' @examples
+#' data <- data.frame(
+#' name=c("A","B","C","D","E"),  
+#' value=c(3,12,5,18,45)
+#' )
+#' 
+#' data |>
+#'  e_charts(name) |>
+#'  e_bar(value, legend = FALSE)
+#' 
 #' library(dplyr)
 #'
 #' mtcars |>
