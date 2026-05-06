@@ -69,6 +69,8 @@ e_marginDensity <- function(data, x, y, tl, group, show_axis = FALSE, ...){
       e_x_axis(type = "value") |>
       e_y_axis(type = "value")
     
+    chart1$x$opts$baseOption$timeline$show = FALSE
+    
     chart2 <- chart1
     
   } else {
